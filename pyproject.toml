@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "repl_python3_SapienFHIRCernerDemo"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "0.10.1"
+Beaker="1.7.0"
+Flask-Bootstrap4="4.0.2"
+Flask-WTF="0.15.1"
+Jinja2="2.11.3"
+MarkupSafe="0.23"
+Werkzeug="0.14.1"
+isodate="0.5.1"
+itsdangerous="0.24"
+requests="2.7.0"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
