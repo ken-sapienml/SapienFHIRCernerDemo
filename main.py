@@ -39,7 +39,6 @@ def _save_state(state):
     session['state'] = state
 
 def _get_smart():
-
     state = session.get('state')
     if state:
         return client.FHIRClient(state=state, save_func=_save_state)
